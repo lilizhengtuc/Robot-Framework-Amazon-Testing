@@ -1,0 +1,16 @@
+1662878016155	geckodriver	INFO	Listening on 127.0.0.1:50093
+1662878016684	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "--remote-debugging-port" "50094" "-foreground" "-no-remote" "-profile" "/var/folders/8k/3ppbsptd7013_40l837qz3r80000gn/T/rust_mozprofileuSBgbC"
+2022-09-11 08:33:38.101 plugin-container[56356:3691124] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-11 08:33:38.102 plugin-container[56356:3691124] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-11 08:33:38.109 plugin-container[56356:3691124] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-11 08:33:38.109 plugin-container[56356:3691124] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-09-11 08:33:38.109 plugin-container[56356:3691130] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-09-11 08:33:38.110 plugin-container[56356:3691130] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1662878018162	Marionette	INFO	Marionette enabled
+1662878018251	Marionette	INFO	Listening on port 50101
+WebDriver BiDi listening on ws://localhost:50094
+1662878018658	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/8k/3ppbsptd7013_40l837qz3r80000gn/T/rust_mozprofileuSBgbC/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:50094/devtools/browser/a128b5e4-c420-45f5-a43d-70204c30f37d
+JavaScript warning: https://www.amazon.com/ line 1882 > injectedScript, line 1: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1662878023434	Marionette	INFO	Stopped listening on port 50101
